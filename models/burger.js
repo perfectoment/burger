@@ -1,7 +1,7 @@
 var orm = require("../config/orm.js");
 
 //create the code that will call the ORM
-// functions using burger specific input 
+//  functions using burger specific input 
 // for the ORM.
 var burger ={
     selectAll: function(cb) {
@@ -16,7 +16,7 @@ var burger ={
         });
       },
       updateOne: function(objColVals, condition, cb) {
-        orm.updateOne("burgers", objColVals, condition, function(res) {
+        orm.update("burgers", objColVals, condition, function(res) {
           cb(res);
         });
       }
