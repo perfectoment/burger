@@ -3,14 +3,11 @@ var connection = require("./connection.js");
 
 function printQuestionMarks(num) {
     var arr = [];
-  
     for (var i = 0; i < num; i++) {
       arr.push("?");
     }
-  
     return arr.toString();
   }
-  
   // Helper function to convert object key/value pairs to SQL syntax
   function objToSql(ob) {
     var arr = [];
@@ -29,14 +26,9 @@ function printQuestionMarks(num) {
         arr.push(key + "=" + value);
       }
     }
-  
     // translate array of strings to a single comma-separated string
     return arr.toString();
   }
-
-
-
-
 var orm = {
     selectAll: function(tableInput, cb) {
         var queryString = "SELECT * FROM " + tableInput + ";";
