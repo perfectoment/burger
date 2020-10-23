@@ -1,0 +1,27 @@
+body {
+background-color: sienna;
+}
+
+h1 {
+align-content: center;
+
+}
+
+.jumbotron {
+background-color: bisque;
+}
+footer{
+background-color: bisque;    
+}
+.top{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: black;
+}
+h2{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+
+button{
+background-color: burlywood;   
+color:brown
+}
